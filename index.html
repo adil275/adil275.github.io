@@ -94,10 +94,10 @@
                         </div>
                         
                         <div class="span8">
-                            <h4>Dense 3D Reconstruction of Road Surface</h4>
+                            <h4>3D Reconstruction of Road Surface</h4>
                             <!-- <div class="date">April '15 - August '16</div> -->
                             <p>
-                                Developed an end-to-end pipeline for dense reconstruction of road surface using OpenSfM library. .</br>
+                                This first involved extracting the frames from a road facing 120fps go-pro video captured on a moving vehicle. To extract the frames I wrote a python script that dynamically extracted overlapping frames based on the speed estimated from the GPS data available in the meta data of the video. Following this, the frames were passed to a incremental SFM (structure from motion) pipeline which involved SIFT based key-point matching, 8 Point algorithm for fundamental matrix estimation and linear triangulation.</br>
                                 <!-- <a href="documents/ms_proj_report.pdf">Report</a>, <a href="images/3D_face_phong2.mp4">Video</a>, <a href="documents/ms_poster.pdf">Poster</a> -->
                             </p>
                         </div>
