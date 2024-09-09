@@ -97,7 +97,7 @@
                             <h4>3D Reconstruction of Road Surface</h4>
                             <!-- <div class="date">April '15 - August '16</div> -->
                             <p>
-                                This first involved extracting the frames from a road facing 120fps go-pro video captured on a moving vehicle. To extract the frames I wrote a python script that dynamically extracted overlapping frames based on the speed estimated from the GPS data available in the meta data of the video. Following this, the frames were passed to an incremental SFM (structure from motion) pipeline for 3D reconstruction and camera pose estimation involving SIFT based key-point matching, 8 Point algorithm for fundamental matrix estimation and linear triangulation.</br>
+                                This first involved extracting the frames from a road facing 120fps go-pro video captured on a moving vehicle. To extract the frames I wrote a python script that dynamically extracted overlapping frames based on the speed estimated from the GPS data available in the meta data of the video. Following this, the frames were passed to an incremental SFM (structure from motion) pipeline for 3D reconstruction and camera pose estimation involving SIFT based key-point matching, 8 Point algorithm for fundamental matrix estimation and linear triangulation. Fused GPS and IMU data for robust scale estimation.</br>
                                 <!-- <a href="images/road_reconstruction.mp4">Video</a> -->
                             </p>
                         </div>
@@ -110,8 +110,8 @@
                         
                         <div class="span4" style="margin-top: 0pt;">
                             <h4> </h4>
-                            <!-- <img src="images/prt1.png"/>
-                            <img src="images/prt2.png"/> -->
+                            <img src="images/pavement.png"/>
+                            <img src="images/depthmaps.png"/>
                         </div>
                         
                         <div class="span8">
